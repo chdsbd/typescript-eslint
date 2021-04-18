@@ -1,6 +1,7 @@
 import adjacentOverloadSignatures from './adjacent-overload-signatures';
 import arrayType from './array-type';
 import awaitThenable from './await-thenable';
+import banDateMutation from './ban-date-mutation';
 import banTsComment from './ban-ts-comment';
 import banTslintComment from './ban-tslint-comment';
 import banTypes from './ban-types';
@@ -119,6 +120,7 @@ export default {
   'adjacent-overload-signatures': adjacentOverloadSignatures,
   'array-type': arrayType,
   'await-thenable': awaitThenable,
+  'ban-date-mutation': banDateMutation,
   'ban-ts-comment': banTsComment,
   'ban-tslint-comment': banTslintComment,
   'ban-types': banTypes,

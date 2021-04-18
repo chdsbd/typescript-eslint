@@ -7,6 +7,7 @@ export = {
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/ban-ts-comment': 'error',
+    '@typescript-eslint/ban-date-mutation': 'error',
     '@typescript-eslint/ban-types': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
     'no-array-constructor': 'off',
